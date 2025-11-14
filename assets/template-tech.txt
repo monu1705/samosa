@@ -1,0 +1,29 @@
+FIRST LAST NAME
+City, ST · (123) 456-7890 · email@example.com · linkedin.com/in/username · github.com/username
+
+SUMMARY
+Software engineer focused on building reliable, user-centered applications with clean code and measurable impact.
+
+SKILLS
+Languages: JavaScript, TypeScript, Python
+Frameworks: React, Node.js, Express, Next.js
+Tools: Git, Docker, PostgreSQL, AWS, Jest
+
+EXPERIENCE
+Company Name — Software Engineer Intern · Jun 2024 – Aug 2024
+- Implemented customer onboarding flow in React, reducing average setup time by 35%.
+- Built Node.js API endpoints and automated validation tests, cutting release bugs by 40%.
+- Collaborated with design and product in sprint planning to ship two features ahead of schedule.
+
+PROJECTS
+Real-time Collaboration App
+- Architected WebSocket-based collaboration features for editing sessions with 100+ simultaneous users.
+- Optimized database queries to decrease response times from 600ms to 180ms.
+
+EDUCATION
+University Name — B.S. Computer Science · May 2025
+- Relevant coursework: Algorithms, Databases, Human-Computer Interaction
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner (2024)
+

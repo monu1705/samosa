@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How It Works | ResumeSensei</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body data-page="how">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">ResumeSensei</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <ul id="site-menu" class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="demo.html">Demo</a></li>
+          <li><a class="nav-link" href="templates.html">Templates</a></li>
+          <li><a class="nav-link" href="how-it-works.html">How it works</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>How the “AI” works (spoiler: heuristics!)</h1>
+        <p class="lead">We believe in classroom honesty. Everything runs locally with deterministic checks you can inspect and explain.</p>
+      </div>
+    </section>
+
+    <section class="container how-grid">
+      <article class="card how-card">
+        <h2>Contact scan</h2>
+        <ul>
+          <li>Regex captures email, phone, LinkedIn, and GitHub URLs.</li>
+          <li>If any field is missing, it’s flagged with a friendly reminder.</li>
+          <li>First non-empty line is checked for a professional name format.</li>
+        </ul>
+      </article>
+      <article class="card how-card">
+        <h2>Structure &amp; length</h2>
+        <ul>
+          <li>Counts words and estimated reading length to spot multi-page resumes.</li>
+          <li>Looks for classic headings like “Experience” and “Education”.</li>
+          <li>Warns when bullet ratios vs. paragraphs look off.</li>
+        </ul>
+      </article>
+      <article class="card how-card">
+        <h2>Bullet strength</h2>
+        <ul>
+          <li>Identifies bullet lines and checks for action verbs up front.</li>
+          <li>Flags vague phrases like “responsible for” or “worked on”.</li>
+          <li>Suggests adding metrics when no numbers are detected.</li>
+        </ul>
+      </article>
+      <article class="card how-card">
+        <h2>Grammar &amp; clarity</h2>
+        <ul>
+          <li>Highlights repeated spaces, common misspellings, and fragment lengths.</li>
+          <li>Checks for inconsistent punctuation at line endings.</li>
+          <li>Encourages parallel voice across bullet sections.</li>
+        </ul>
+      </article>
+      <article class="card how-card">
+        <h2>Keyword match</h2>
+        <ul>
+          <li>Role selector maps to curated keyword lists for each discipline.</li>
+          <li>Missing high-impact keywords are surfaced with add-now suggestions.</li>
+          <li>Counts role-aligned verbs to increase specificity.</li>
+        </ul>
+      </article>
+      <article class="card how-card">
+        <h2>Formatting check</h2>
+        <ul>
+          <li>Detects mixed date formats (Jan 2024 vs. 01/2024) and flags mismatches.</li>
+          <li>Warns when entire sections are in all caps or lengths vary dramatically.</li>
+          <li>Looks for standard bullet markers to keep layout consistent.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="container honesty-card alt">
+      <div>
+        <h2>Why call it “AI” at all?</h2>
+        <p>The point of this prototype is to show the workflow of an AI helper: upload, analyze, suggest, and export. For a production-grade tool you’d integrate a genuine language model API, but for class we rely on transparent heuristics anyone can read in the code.</p>
+      </div>
+      <a class="btn secondary" href="scripts/app.js" download>View the JavaScript</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> ResumeSensei — Classroom AI Resume Helper Prototype</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">Heuristics</a>
+        <a href="https://github.com/" rel="noopener" target="_blank">Source coming soon</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/auth.js" defer></script>
+</body>
+</html>
+

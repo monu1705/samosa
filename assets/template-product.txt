@@ -1,0 +1,25 @@
+FIRST LAST NAME
+City, ST · (123) 456-7890 · email@example.com · linkedin.com/in/username · portfolio.com
+
+SUMMARY
+Product manager who aligns teams around customer insights, data-backed priorities, and measurable outcomes.
+
+CORE SKILLS
+Roadmapping · User research · OKRs · Agile facilitation · Experimentation · Stakeholder storytelling
+
+EXPERIENCE
+Company Name — Associate Product Manager · Jan 2024 – Present
+- Launched onboarding checklist that increased active day-7 users by 22%.
+- Partnered with research to synthesize 35 customer interviews into product themes used in roadmap prioritization.
+- Led cross-functional squad (design, engineering, support) to ship 3 high-impact releases on time.
+
+Company Name — Product Analyst · Jul 2022 – Dec 2023
+- Built KPI dashboards surfacing churn signals, enabling a churn reduction squad that improved retention 8%.
+- Owned weekly experiment review, ensuring all A/B tests met statistical significance guidelines.
+
+EDUCATION
+University Name — B.B.A. Marketing & Information Systems · May 2022
+
+HIGHLIGHTED PROJECTS
+Voice of the Customer Program — Created feedback intake process and automated tagging to route insights to roadmaps.
+

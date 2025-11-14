@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | ResumeSensei</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body data-page="login">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">ResumeSensei</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <ul id="site-menu" class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="demo.html">Demo</a></li>
+          <li><a class="nav-link" href="templates.html">Templates</a></li>
+          <li><a class="nav-link" href="how-it-works.html">How it works</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="auth-container">
+      <div class="auth-card">
+        <h1>Welcome back</h1>
+        <p class="lead">Sign in to access ResumeSensei</p>
+        
+        <div class="error-message" id="error-message" role="alert"></div>
+
+        <div class="demo-accounts">
+          <h3>Quick access with demo accounts</h3>
+          <div class="demo-account-grid">
+            <button class="demo-account" data-email="alice@demo.com" data-password="demo123">
+              <strong>Alice Johnson</strong>
+              <span>Software Engineer • alice@demo.com</span>
+            </button>
+            <button class="demo-account" data-email="bob@demo.com" data-password="demo123">
+              <strong>Bob Smith</strong>
+              <span>Product Manager • bob@demo.com</span>
+            </button>
+            <button class="demo-account" data-email="carol@demo.com" data-password="demo123">
+              <strong>Carol Williams</strong>
+              <span>Data Analyst • carol@demo.com</span>
+            </button>
+            <button class="demo-account" data-email="david@demo.com" data-password="demo123">
+              <strong>David Brown</strong>
+              <span>Marketing Specialist • david@demo.com</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="divider">
+          <span>Or sign in manually</span>
+        </div>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="Enter your password">
+          </div>
+          <div class="auth-actions">
+            <button type="submit" class="btn primary">Sign in</button>
+            <a href="index.html" class="btn ghost">Back to home</a>
+          </div>
+        </form>
+
+        <div class="auth-footer">
+          Don't have an account? <a href="register.html">Create one here</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> ResumeSensei — Classroom AI Resume Helper Prototype</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">Heuristics</a>
+        <a href="https://github.com/" rel="noopener" target="_blank">Source coming soon</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/auth.js" defer></script>
+</body>
+</html>
+

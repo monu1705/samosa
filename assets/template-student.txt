@@ -1,0 +1,30 @@
+FIRST LAST NAME
+City, ST · (123) 456-7890 · email@example.com · linkedin.com/in/username | portfolio.com
+
+SUMMARY
+Computer science student with project leadership experience, campus involvement, and volunteer teaching.
+
+EDUCATION
+University Name — B.S. Computer Science · Expected May 2026
+- GPA: 3.7/4.0 · Dean’s List (4 semesters)
+- Coursework: Data Structures, Software Engineering, Database Systems, Technical Writing
+
+PROJECTS
+Campus Event Finder (React, Firebase)
+- Designed responsive interface and integrated Firebase auth, resulting in 600+ student signups.
+- Configured Firestore rules and automated testing to maintain 0 security incidents during pilot.
+
+Smart Study Buddy (Python, Flask)
+- Built study reminder engine using scheduling heuristics to reduce missed sessions by 30%.
+- Implemented dashboards with Matplotlib for weekly goal tracking.
+
+LEADERSHIP & ACTIVITIES
+Women in Tech Club — President
+- Organized monthly workshops and mentoring program that paired 25 students with alumni mentors.
+
+Hack4Change Hackathon — Team Lead
+- Coordinated a team of 4 to build an accessibility-focused transit map prototype in 36 hours.
+
+VOLUNTEERING
+STEM Saturday Instructor — Led beginner coding modules for 15 middle school students each month.
+

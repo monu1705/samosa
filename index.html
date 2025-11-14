@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Checker Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">ResumeSensei</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <ul id="site-menu" class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="demo.html">Demo</a></li>
+          <li><a class="nav-link" href="templates.html">Templates</a></li>
+          <li><a class="nav-link" href="how-it-works.html">How it works</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="pill">Classroom Prototype</span>
+          <h1>AI-powered Resume Checker &amp; Fix Generator</h1>
+          <p>Quickly analyze a resume, spot weak areas, and get instant suggested rewrites — no complex setup.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="demo.html">Try the demo</a>
+            <a class="btn ghost" href="templates.html">Browse templates</a>
+            <a class="btn ghost" href="login.html" style="margin-top: 8px;">Login / Register</a>
+          </div>
+          <div class="typewriter">
+            <span class="type-label">It can</span>
+            <span class="type-loop" data-messages='["highlight missing contact info","flag weak bullet points","suggest stronger action verbs","check keywords for target roles"]'></span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card">
+            <div class="floating-card__score">
+              <svg class="mini-ring" viewBox="0 0 120 120" role="img" aria-label="Demo score illustration">
+                <circle class="mini-ring__bg" cx="60" cy="60" r="54"></circle>
+                <circle class="mini-ring__progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="84.823"></circle>
+              </svg>
+              <div class="mini-ring__label">
+                <span class="mini-ring__value">75</span>
+                <span class="mini-ring__text">Score</span>
+              </div>
+            </div>
+            <ul class="floating-card__checks">
+              <li><span class="status-dot success"></span> Contact details complete</li>
+              <li><span class="status-dot warning"></span> Add more metrics</li>
+              <li><span class="status-dot info"></span> Stronger keywords needed</li>
+            </ul>
+            <div class="floating-card__footer">
+              <span class="pill soft">Heuristic AI</span>
+              <span class="checkmark" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="hero-orb" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container section-header">
+        <h2>Why it stands out</h2>
+        <p>Designed for classrooms: fast to demo, transparent heuristics, and easy to follow results.</p>
+      </div>
+      <div class="container feature-grid">
+        <article class="feature-card">
+          <svg class="feature-icon" aria-hidden="true">
+            <use href="assets/icons.svg#analysis"></use>
+          </svg>
+          <h3>Instant Analysis</h3>
+          <p>Paste text or upload a resume to get a quick overview of strengths and gaps in seconds.</p>
+        </article>
+        <article class="feature-card">
+          <svg class="feature-icon" aria-hidden="true">
+            <use href="assets/icons.svg#suggest"></use>
+          </svg>
+          <h3>Actionable Suggestions</h3>
+          <p>See concise explanations and suggested rewrites for weak bullet points or missing details.</p>
+        </article>
+        <article class="feature-card">
+          <svg class="feature-icon" aria-hidden="true">
+            <use href="assets/icons.svg#export"></use>
+          </svg>
+          <h3>One-click Export</h3>
+          <p>Apply fixes automatically and download a polished version ready for further editing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="flow">
+      <div class="container section-header">
+        <h2>3-minute classroom demo</h2>
+        <p>Walk through the analyzer live and send classmates home with templates.</p>
+      </div>
+      <div class="container flow-steps">
+        <div class="flow-step">
+          <span class="step-number">1</span>
+          <h3>Paste a sample resume</h3>
+          <p>Use the built-in example or bring your own text file. The demo runs entirely in the browser.</p>
+        </div>
+        <div class="flow-step">
+          <span class="step-number">2</span>
+          <h3>Run analysis</h3>
+          <p>Watch the progress ring animate, then explore grouped issues with suggested rewrites.</p>
+        </div>
+        <div class="flow-step">
+          <span class="step-number">3</span>
+          <h3>Export improvements</h3>
+          <p>Apply fixes, copy to clipboard, or download a cleaned-up text version to keep iterating.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="honesty">
+      <div class="container honesty-card">
+        <div>
+          <h2>Transparent &amp; honest prototype</h2>
+          <p>This classroom demo uses client-side heuristics to inspect contact details, detect weak wording, and suggest more impactful bullet points. It’s a prototype to demonstrate the value of automated resume feedback.</p>
+        </div>
+        <a class="btn secondary" href="how-it-works.html">See how it works</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> ResumeSensei — Classroom AI Resume Helper Prototype</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">Heuristics</a>
+        <a href="https://github.com/" rel="noopener" target="_blank">Source coming soon</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/auth.js" defer></script>
+</body>
+</html>
+

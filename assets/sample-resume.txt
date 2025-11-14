@@ -1,0 +1,24 @@
+Jordan Rivera
+Email: jordan.rivera@example.com | Phone: (555) 123-4567 | linkedin.com/in/jordanrivera | github.com/jordanrivera
+
+SUMMARY
+Entry-level software engineer with internship experience building web applications, collaborating with product teams, and shipping maintainable code.
+
+TECH SKILLS
+JavaScript · TypeScript · React · Node.js · SQL · Git · Agile Scrum
+
+EXPERIENCE
+- Responsible for updating the internal dashboard that sales used every week.
+- Built new onboarding checklist feature alongside a product manager and designer.
+- Helped with testing before each release.
+
+PROJECTS
+- Portfolio Site — created a personal website to show projects and blogs.
+- Task Tracker API — worked on API endpoints for tasks and notifications.
+
+EDUCATION
+State University — B.S. Computer Science — May 2025
+
+VOLUNTEERING
+Hack for Good — Taught high school students how to set up GitHub accounts and contribute to beginner-friendly issues.
+

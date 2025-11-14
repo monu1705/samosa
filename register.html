@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | ResumeSensei</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body data-page="register">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">ResumeSensei</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <ul id="site-menu" class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="demo.html">Demo</a></li>
+          <li><a class="nav-link" href="templates.html">Templates</a></li>
+          <li><a class="nav-link" href="how-it-works.html">How it works</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="auth-container">
+      <div class="auth-card">
+        <h1>Create account</h1>
+        <p class="lead">Join ResumeSensei to get started</p>
+        
+        <div class="error-message" id="error-message" role="alert"></div>
+        <div class="success-message" id="success-message" role="alert"></div>
+
+        <form id="register-form">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required autocomplete="new-password" placeholder="Create a password" minlength="6">
+            <small>Must be at least 6 characters long</small>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required autocomplete="new-password" placeholder="Confirm your password">
+          </div>
+          <div class="auth-actions">
+            <button type="submit" class="btn primary">Create account</button>
+            <a href="index.html" class="btn ghost">Back to home</a>
+          </div>
+        </form>
+
+        <div class="auth-footer">
+          Already have an account? <a href="login.html">Sign in here</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> ResumeSensei — Classroom AI Resume Helper Prototype</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">Heuristics</a>
+        <a href="https://github.com/" rel="noopener" target="_blank">Source coming soon</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/auth.js" defer></script>
+</body>
+</html>
+

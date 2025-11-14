@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+  <symbol id="analysis" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+    <path d="M9 12h6"/>
+    <path d="M12 9v6"/>
+  </symbol>
+  <symbol id="suggest" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 18v3"/>
+    <path d="M15 18v3"/>
+    <path d="M7 21h10"/>
+    <path d="M12 3a6 6 0 0 0-6 6c0 2.73 1.94 5.04 4.56 5.77L10 18h4l-.56-3.23A6 6 0 0 0 18 9a6 6 0 0 0-6-6Z"/>
+  </symbol>
+  <symbol id="export" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 20h16"/>
+    <path d="M12 4v12"/>
+    <path d="m18 10-6 6-6-6"/>
+  </symbol>
+</svg>
+
